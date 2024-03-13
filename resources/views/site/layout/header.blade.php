@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Home - Brush Skill India</title>
+    <title>@yield('website-page-title') - {{ env('APP_NAME') }}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">

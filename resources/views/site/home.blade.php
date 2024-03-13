@@ -1,5 +1,7 @@
 @extends('site.layout.main')
 
+@section('website-page-title','Home')
+
 @section('website-main-section')
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 bg-hero" style="margin-bottom: 90px;">
