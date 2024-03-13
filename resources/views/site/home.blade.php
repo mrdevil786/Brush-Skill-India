@@ -35,14 +35,16 @@
                 </div>
                 <div class="col-lg-6" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="{{ asset('site/img/about-1.jpg') }}"
+                            style="object-fit: cover;">
                     </div>
                 </div>
             </div>
             <div class="row gx-0">
                 <div class="col-lg-6" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="{{ asset('site/img/about-2.jpg') }}"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 my-lg-5 py-lg-5">
@@ -183,7 +185,7 @@
             <div class="row g-3">
                 <div class="col-lg-4 col-md-6">
                     <div class="team-item">
-                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('site/img/team-1.jpg') }}" alt="">
                         <div class="team-text">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2" href="#"><i
@@ -202,7 +204,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="team-item">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('site/img/team-2.jpg') }}" alt="">
                         <div class="team-text">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2" href="#"><i
@@ -221,7 +223,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="team-item">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('site/img/team-3.jpg') }}" alt="">
                         <div class="team-text">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2" href="#"><i
@@ -256,7 +258,7 @@
                                 clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna
                                 ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid p-1 bg-secondary" src="img/testimonial-1.jpg" alt="">
+                                <img class="img-fluid p-1 bg-secondary" src="{{ asset('site/img/testimonial-1.jpg') }}" alt="">
                                 <div class="ps-3">
                                     <h3>Client Name</h3>
                                     <span class="text-uppercase">Profession</span>
@@ -268,7 +270,7 @@
                                 clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna
                                 ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid p-1 bg-secondary" src="img/testimonial-2.jpg" alt="">
+                                <img class="img-fluid p-1 bg-secondary" src="{{ asset('site/img/testimonial-2.jpg') }}" alt="">
                                 <div class="ps-3">
                                     <h3>Client Name</h3>
                                     <span class="text-uppercase">Profession</span>
@@ -293,7 +295,7 @@
             <div class="row g-3">
                 <div class="col-xl-4 col-lg-6">
                     <div class="blog-item bg-primary">
-                        <img class="img-fluid w-100" src="img/blog-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('site/img/blog-1.jpg') }}" alt="">
                         <div class="d-flex align-items-center">
                             <div class="bg-secondary mt-n4 d-flex flex-column flex-shrink-0 justify-content-center text-center me-4"
                                 style="width: 60px; height: 100px;">
@@ -306,7 +308,7 @@
                         </div>
                         <div class="d-flex justify-content-between border-top border-secondary p-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="30" height="30"
+                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30" height="30"
                                     alt="">
                                 <small class="text-uppercase">John Doe</small>
                             </div>
@@ -319,7 +321,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6">
                     <div class="blog-item bg-primary">
-                        <img class="img-fluid w-100" src="img/blog-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('site/img/blog-2.jpg') }}" alt="">
                         <div class="d-flex align-items-center">
                             <div class="bg-secondary mt-n4 d-flex flex-column flex-shrink-0 justify-content-center text-center me-4"
                                 style="width: 60px; height: 100px;">
@@ -332,7 +334,7 @@
                         </div>
                         <div class="d-flex justify-content-between border-top border-secondary p-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="30" height="30"
+                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30" height="30"
                                     alt="">
                                 <small class="text-uppercase">John Doe</small>
                             </div>
@@ -345,7 +347,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6">
                     <div class="blog-item bg-primary">
-                        <img class="img-fluid w-100" src="img/blog-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('site/img/blog-3.jpg') }}" alt="">
                         <div class="d-flex align-items-center">
                             <div class="bg-secondary mt-n4 d-flex flex-column flex-shrink-0 justify-content-center text-center me-4"
                                 style="width: 60px; height: 100px;">
@@ -358,7 +360,7 @@
                         </div>
                         <div class="d-flex justify-content-between border-top border-secondary p-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="30" height="30"
+                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30" height="30"
                                     alt="">
                                 <small class="text-uppercase">John Doe</small>
                             </div>
