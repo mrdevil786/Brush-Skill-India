@@ -3,17 +3,19 @@
 @section('website-page-title','Home')
 
 @section('website-main-section')
+
     <!-- Hero Start -->
+
+
     <div class="container-fluid bg-primary py-5 bg-hero" style="margin-bottom: 90px;">
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-dark">We Bring Your Home To Lively Colors</h1>
-                    <p class="fs-4 text-dark mb-4">Nonumy diam dolores est ipsum diam amet lorem clita clita sit eirmod duo
-                        clita dolore dolor ut diam diam justo sed est</p>
+                    <p class="fs-4 text-dark mb-4"></p>
                     <div class="pt-2">
-                        <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2">Get A Quote</a>
-                        <a href="" class="btn btn-outline-secondary rounded-pill py-md-3 px-md-5 mx-2">Contact Us</a>
+                        <a href="#quote_form" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2">Get A Quote</a>
+                        <a href="/contact" class="btn btn-outline-secondary rounded-pill py-md-3 px-md-5 mx-2">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -28,10 +30,13 @@
             <div class="row gx-0 mb-3 mb-lg-0">
                 <div class="col-lg-6 my-lg-5 py-lg-5">
                     <div class="about-start bg-primary p-5">
-                        <h1 class="display-5 mb-4">Welcome To Painter</h1>
-                        <p>Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et, tempor sit sit diam amet et eos
-                            labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo
-                            et tempor magna dolore erat amet </p>
+                        <h1 class="display-5 mb-4">Welcome To Brush Skill India</h1>
+                        <p>We introduce ourselves as a Gypsum & Painting Contractor in Residential &
+                            Commercial Projects Since last 25 years.
+                            The company Brush Skill India initiated its operation in Mumbai & Thane
+                            with various Builders & Developers.
+                            Today Brush Skill India is an upcoming contractor of Gypsum & Painting
+                            works in housing projects at Mumbai & Thane.</p>
                         <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Contact Us</a>
                     </div>
                 </div>
@@ -52,9 +57,10 @@
                 <div class="col-lg-6 my-lg-5 py-lg-5">
                     <div class="about-end bg-primary p-5">
                         <h1 class="display-5 mb-4">Why Choose Us?</h1>
-                        <p>Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et, tempor sit sit diam amet et eos
-                            labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo
-                            et tempor magna dolore erat amet </p>
+                        <p>We are committed to upholding the highest standards of quality, integrity, and value 
+                            creation. Our vision encompasses the diligent implementation of best business 
+                            practices, ensuring that our every commitment reflects excellence and contributes 
+                            positively to the value we bring to our stakeholders </p>
                         <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Get A Quote</a>
                     </div>
                 </div>
@@ -73,69 +79,64 @@
             </div>
             <div class="row gy-4 gx-3">
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/Picture6.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                        
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-brush"></i></div>
                         </div>
                         <h3 class="mt-5">Regular Painting</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i
-                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-5">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                <div class="col-lg-4 col-md-8 pt-5">
+                    <img class="img-fluid w-100" src="{{asset('site/img/Picture1.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-roller"></i></div>
                         </div>
                         <h3 class="mt-5">Wall Painting</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i
-                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/Picture5.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-brush"></i></div>
                         </div>
                         <h3 class="mt-5">Floor Coating</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i
-                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/Picture2.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-eraser"></i></div>
                         </div>
                         <h3 class="mt-5">Graffiti Removal</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i
-                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/Picture1.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-spray-can"></i></div>
                         </div>
                         <h3 class="mt-5">Mildew Removal</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i
-                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/Picture8.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-city"></i></div>
                         </div>
-                        <h3 class="mt-5">Window Washing</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i
-                                class="bi bi-arrow-right ms-1"></i></a>
+                        <h3 class="mt-5">Gypsum Works</h3>
+                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -145,7 +146,7 @@
 
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0;">
+    <div class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0"; id="quote_form">
         <div class="container py-5">
             <div class="row g-0 justify-content-start">
                 <div class="col-lg-6">
@@ -178,13 +179,15 @@
 
 
     <!-- Team Start -->
+    
     <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h1 class="display-5">Dedicated Team Members</h1>
+        <div class="container py-5 ">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;" id="team_members">
+                <h1 class="display-5">Dedicated Directors</h1>
                 <hr class="w-25 mx-auto text-primary" style="opacity: 1;">
             </div>
-            <div class="row g-3">
+            
+            <div class="row g-3 justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="team-item">
                         <img class="img-fluid w-100" src="{{ asset('site/img/team-1.jpg') }}" alt="">
@@ -198,8 +201,8 @@
                                         class="fab fa-linkedin-in"></i></a>
                             </div>
                             <div class="mt-auto mb-3">
-                                <h4 class="mb-1">Full Name</h4>
-                                <span class="text-uppercase">Designation</span>
+                                <h4 class="mb-1">Mr. Ghayas M. Khan</h4>
+                                <span class="text-uppercase">+91-9322076046</span>
                             </div>
                         </div>
                     </div>
@@ -217,75 +220,21 @@
                                         class="fab fa-linkedin-in"></i></a>
                             </div>
                             <div class="mt-auto mb-3">
-                                <h4 class="mb-1">Full Name</h4>
-                                <span class="text-uppercase">Designation</span>
+                                <h4 class="mb-1">Mr. Ghulam M. Khan</h4>
+                                <span class="text-uppercase">+91-7900055544</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-item">
-                        <img class="img-fluid w-100" src="{{ asset('site/img/team-3.jpg') }}" alt="">
-                        <div class="team-text">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2" href="#"><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2" href="#"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-lg btn-secondary btn-lg-square rounded-circle me-2" href="#"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                            <div class="mt-auto mb-3">
-                                <h4 class="mb-1">Full Name</h4>
-                                <span class="text-uppercase">Designation</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
+    
     <!-- Team End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-primary bg-testimonial py-5" style="margin: 90px 0;">
-        <div class="container py-5">
-            <div class="row g-0 justify-content-end">
-                <div class="col-lg-6">
-                    <h1 class="display-5 mb-4">Testimonials</h1>
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item">
-                            <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Dolores sed duo
-                                clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna
-                                ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid p-1 bg-secondary" src="{{ asset('site/img/testimonial-1.jpg') }}" alt="">
-                                <div class="ps-3">
-                                    <h3>Client Name</h3>
-                                    <span class="text-uppercase">Profession</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Dolores sed duo
-                                clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna
-                                ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid p-1 bg-secondary" src="{{ asset('site/img/testimonial-2.jpg') }}" alt="">
-                                <div class="ps-3">
-                                    <h3>Client Name</h3>
-                                    <span class="text-uppercase">Profession</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
+   
 
     <!-- Blog Start -->
     <div class="container-fluid py-5">

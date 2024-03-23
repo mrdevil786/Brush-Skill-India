@@ -38,10 +38,10 @@
             <div class="row">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-dark py-2 pe-3 border-end border-white" href=""><i
-                                class="bi bi-telephone text-secondary me-2"></i>+012 345 6789</a>
-                        <a class="text-dark py-2 px-3" href=""><i
-                                class="bi bi-envelope text-secondary me-2"></i>info@example.com</a>
+                        <a class="text-dark py-2 pe-3 border-end border-white" href="tel:+917900055544"><i
+                                class="bi bi-telephone text-secondary me-2"></i>+91-7900055544</a>
+                        <a class="text-dark py-2 px-3" href="mailto:brushskillindia@gmail.com"><i
+                                class="bi bi-envelope text-secondary me-2"></i>brushskillindia@gmail.com</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-end">
@@ -58,7 +58,7 @@
                         <a class="text-body py-2 px-3 border-end border-white" href="">
                             <i class="fab fa-instagram text-secondary"></i>
                         </a>
-                        <a class="text-body py-2 ps-3" href="">
+                        <a class="text-body py-2 ps-3" href="https://www.youtube.com/@HomeRenoVisionDIY">
                             <i class="fab fa-youtube text-secondary"></i>
                         </a>
                     </div>
@@ -79,25 +79,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 pe-4 border-end border-5 border-primary">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="/" class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}">Home</a>
+                <a href="/about" class="nav-item nav-link {{ Request::is('about') ? 'active' : '' }}">About</a>
+                <a href="/service" class="nav-item nav-link {{ Request::is('service') ? 'active' : '' }}">Service</a>
+                <a href="/testimonial" class="nav-item nav-link {{ Request::is('testimonial') ? 'active' : '' }}">Testimonial</a>
+                <a href="/contact" class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}">Contact</a>
             </div>
             <div class="d-none d-lg-flex align-items-center ps-4">
                 <i class="fa fa-2x fa-mobile-alt text-secondary me-3"></i>
                 <div>
                     <h5 class="text-primary mb-1"><small>Call Now</small></h5>
-                    <h6 class="text-light m-0">+012 345 6789</h6>
+                    <h6 class="text-light m-0">+91-7900055544</h6>
                 </div>
             </div>
         </div>
