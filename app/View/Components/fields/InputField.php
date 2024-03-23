@@ -16,7 +16,7 @@ class InputField extends Component
     public $placeholder;
     public $class;
 
-    public function __construct($label, $name, $id = null, $type = 'text', $value = null, $placeholder = null, $class = 'col-xl-12 mb-3')
+    public function __construct($label, $name, $id = null, $type = 'text', $value = null, $placeholder = null, $class = null)
     {
         $this->label = $label;
         $this->name = $name;
@@ -24,7 +24,7 @@ class InputField extends Component
         $this->type = $type ?? 'text';
         $this->value = $value ?? old($name);
         $this->placeholder = $placeholder ?? $label;
-        $this->class = $class;
+        $this->class = $class ?? 'col-xl-12 mb-3';
     }
 
     public function render(): View|Closure|string
