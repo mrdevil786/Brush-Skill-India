@@ -1,6 +1,6 @@
 @extends('site.layout.main')
 
-@section('website-page-title','contact')
+@section('website-page-title', 'contact')
 
 @section('website-main-section')
 
@@ -25,10 +25,12 @@
     <!-- Contact Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
+
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h1 class="display-5">Please Feel Free To Contact Us</h1>
                 <hr class="w-25 mx-auto text-primary" style="opacity: 1;">
             </div>
+
             <div class="row g-3 mb-5">
                 <div class="col-lg-4 col-md-6 pt-5">
                     <div class="contact-item d-flex flex-column align-items-center justify-content-center text-center pb-5">
@@ -36,7 +38,7 @@
                             <div><i class="fa fa-2x fa-map-marker-alt"></i></div>
                         </div>
                         <h4 class="mt-5">E-309,Crystal Plaza, <br>
-                            Opp. Infinity Mall, Link Road,</br> Andheri(W), Mumbai- 400053</h5>
+                            Opp. Infinity Mall, Link Road,<br> Andheri(W), Mumbai- 400053</h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
@@ -44,7 +46,8 @@
                         <div class="contact-icon p-3">
                             <div><i class="fa fa-2x fa-phone"></i></div>
                         </div>
-                        <h2 class="mt-5">+91-7900055544 <br> +91-9322076046 </br></h4>
+                        <h4 class="mt-5"><a href="tel:+917900055544" style="color: black;">+91-7900055544</a><br><br><a
+                                href="tel:+919322076046" style="color: black;">+91-9322076046</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
@@ -52,10 +55,11 @@
                         <div class="contact-icon p-3">
                             <div><i class="fa fa-2x fa-envelope-open"></i></div>
                         </div>
-                        <h4 class="mt-5">brushskillindia@gmail.com <br></h4>
+                        <h4 class="mt-5">brushskillindia@gmail.com <br><br><br></h4>
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-12" style="height: 500px;">
                     <div class="position-relative h-100">
@@ -66,19 +70,24 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center position-relative" style="margin-top: -200px; z-index: 1;" id="contact_form">
+
+            <div class="row justify-content-center position-relative" style="margin-top: -200px; z-index: 1;"
+                id="contact_form">
                 <div class="col-lg-8">
                     <div class="bg-primary p-5 m-5 mb-0">
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name"
+                                        style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
+                                        style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Subject" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Subject"
+                                        style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <textarea class="form-control bg-light border-0" rows="5" placeholder="Message"></textarea>
@@ -91,6 +100,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- Contact End -->
