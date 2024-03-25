@@ -1,6 +1,6 @@
 @extends('site.layout.main')
 
-@section('website-page-title','Home')
+@section('website-page-title', 'Home')
 
 @section('website-main-section')
 
@@ -15,7 +15,8 @@
                     <p class="fs-4 text-dark mb-4"></p>
                     <div class="pt-2">
                         <a href="#quote_form" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2">Get A Quote</a>
-                        <a href="/contact" class="btn btn-outline-secondary rounded-pill py-md-3 px-md-5 mx-2">Contact Us</a>
+                        <a href="/contact" class="btn btn-outline-secondary rounded-pill py-md-3 px-md-5 mx-2">Contact
+                            Us</a>
                     </div>
                 </div>
             </div>
@@ -57,9 +58,9 @@
                 <div class="col-lg-6 my-lg-5 py-lg-5">
                     <div class="about-end bg-primary p-5">
                         <h1 class="display-5 mb-4">Why Choose Us?</h1>
-                        <p>We are committed to upholding the highest standards of quality, integrity, and value 
-                            creation. Our vision encompasses the diligent implementation of best business 
-                            practices, ensuring that our every commitment reflects excellence and contributes 
+                        <p>We are committed to upholding the highest standards of quality, integrity, and value
+                            creation. Our vision encompasses the diligent implementation of best business
+                            practices, ensuring that our every commitment reflects excellence and contributes
                             positively to the value we bring to our stakeholders </p>
                         <a href="" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Get A Quote</a>
                     </div>
@@ -79,9 +80,10 @@
             </div>
             <div class="row gy-4 gx-3">
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture1.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                        
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture1.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-brush"></i></div>
                         </div>
@@ -90,8 +92,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-8 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture2.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture2.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-roller"></i></div>
                         </div>
@@ -100,8 +103,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture3.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture3.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-brush"></i></div>
                         </div>
@@ -110,8 +114,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture4.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture4.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-eraser"></i></div>
                         </div>
@@ -120,8 +125,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture5.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture5.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-spray-can"></i></div>
                         </div>
@@ -130,8 +136,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture6.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture6.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-city"></i></div>
                         </div>
@@ -179,14 +186,14 @@
 
 
     <!-- Team Start -->
-    
+
     <div class="container-fluid py-5">
         <div class="container py-5 ">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;" id="team_members">
                 <h1 class="display-5">Dedicated Directors</h1>
                 <hr class="w-25 mx-auto text-primary" style="opacity: 1;">
             </div>
-            
+
             <div class="row g-3 justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="team-item">
@@ -226,18 +233,18 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
-    
+
     <!-- Team End -->
 
 
-   
+
 
     <!-- Blog Start -->
-    <div class="container-fluid py-5">
+    {{-- <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h1 class="display-5">Latest Articles From Painting Blog</h1>
@@ -259,8 +266,8 @@
                         </div>
                         <div class="d-flex justify-content-between border-top border-secondary p-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30" height="30"
-                                    alt="">
+                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30"
+                                    height="30" alt="">
                                 <small class="text-uppercase">John Doe</small>
                             </div>
                             <div class="d-flex align-items-center">
@@ -285,8 +292,8 @@
                         </div>
                         <div class="d-flex justify-content-between border-top border-secondary p-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30" height="30"
-                                    alt="">
+                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30"
+                                    height="30" alt="">
                                 <small class="text-uppercase">John Doe</small>
                             </div>
                             <div class="d-flex align-items-center">
@@ -311,8 +318,8 @@
                         </div>
                         <div class="d-flex justify-content-between border-top border-secondary p-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30" height="30"
-                                    alt="">
+                                <img class="rounded-circle me-2" src="{{ asset('site/img/user.jpg') }}" width="30"
+                                    height="30" alt="">
                                 <small class="text-uppercase">John Doe</small>
                             </div>
                             <div class="d-flex align-items-center">
@@ -324,6 +331,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Blog End -->
 @endsection
