@@ -79,64 +79,64 @@
             </div>
             <div class="row gy-4 gx-3">
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/Picture6.png')}}" alt="">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture1.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-brush"></i></div>
                         </div>
                         <h3 class="mt-5">Regular Painting</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
+                        {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-8 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/Picture1.png')}}" alt="">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture2.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-roller"></i></div>
                         </div>
                         <h3 class="mt-5">Wall Painting</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
+                        {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/Picture5.png')}}" alt="">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture3.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-brush"></i></div>
                         </div>
                         <h3 class="mt-5">Floor Coating</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
+                        {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/Picture2.png')}}" alt="">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture4.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-eraser"></i></div>
                         </div>
                         <h3 class="mt-5">Graffiti Removal</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
+                        {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/Picture1.png')}}" alt="">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture5.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-spray-can"></i></div>
                         </div>
                         <h3 class="mt-5">Mildew Removal</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
+                        {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/Picture8.png')}}" alt="">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture6.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-city"></i></div>
                         </div>
                         <h3 class="mt-5">Gypsum Works</h3>
-                        <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a>
+                        {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
             </div>
