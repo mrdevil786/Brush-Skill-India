@@ -37,8 +37,8 @@
                         <div class="contact-icon p-3">
                             <div><i class="fa fa-2x fa-map-marker-alt"></i></div>
                         </div>
-                        <h4 class="mt-5">E-309,Crystal Plaza, <br>
-                            Opp. Infinity Mall, Link Road,<br> Andheri(W), Mumbai- 400053</h4>
+                        <h4 class="mt-5"><a class="text-dark" href="https://maps.app.goo.gl/ejpYyzYPHZDwXN1j7">E-309,Crystal Plaza, <br>
+                            Opp. Infinity Mall, Link Road,<br> Andheri(W), Mumbai- 400053</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
@@ -46,8 +46,7 @@
                         <div class="contact-icon p-3">
                             <div><i class="fa fa-2x fa-phone"></i></div>
                         </div>
-                        <h4 class="mt-5"><a href="tel:+917900055544" style="color: black;">+91-7900055544</a><br><br><a
-                                href="tel:+919322076046" style="color: black;">+91-9322076046</a></h4>
+                        <h4 class="mt-5"><a class="text-dark" href="tel:+917900055544"">+91-7900055544</a><br><br><a class="text-dark" href="tel:+919322076046">+91-9322076046</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
