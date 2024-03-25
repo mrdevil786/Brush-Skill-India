@@ -58,7 +58,7 @@
                         <a class="text-body py-2 px-3 border-end border-white" href="">
                             <i class="fab fa-instagram text-secondary"></i>
                         </a>
-                        <a class="text-body py-2 ps-3" href="https://www.youtube.com/@HomeRenoVisionDIY">
+                        <a class="text-body py-2 ps-3" href="">
                             <i class="fab fa-youtube text-secondary"></i>
                         </a>
                     </div>
@@ -89,7 +89,7 @@
                 <i class="fa fa-2x fa-mobile-alt text-secondary me-3"></i>
                 <div>
                     <h5 class="text-primary mb-1"><small>Call Now</small></h5>
-                    <h6 class="text-light m-0">+91-7900055544</h6>
+                    <h6 class="text-light m-0"><a href="tel:+917900055544">+91-7900055544</a></h6>
                 </div>
             </div>
         </div>
