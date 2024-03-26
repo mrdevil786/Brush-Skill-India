@@ -209,7 +209,7 @@
                             </div>
                             <div class="mt-auto mb-3">
                                 <h4 class="mb-1">Mr. Ghayas M. Khan</h4>
-                                <span class="text-uppercase">+91-9322076046</span>
+                                <span class="text-uppercase">+91-</span>
                             </div>
                         </div>
                     </div>
