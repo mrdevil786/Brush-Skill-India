@@ -4,7 +4,6 @@
 
 @section('website-main-section')
 
-
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 bg-hero" style="margin-bottom: 90px;">
         <div class="container py-5">
@@ -113,6 +112,15 @@
                                         <info class="text-danger">{{ $message }}</info>
                                     @enderror
                                 </div>
+
+                                @if (session('success'))
+                                    <div class="col-12">
+                                        <div class="alert alert-success" role="alert">
+                                            {{ session('success') }}
+                                        </div>
+                                    </div>
+                                @endif
+
                                 <div class="col-12">
                                     <button class="btn btn-secondary w-100 py-3" type="submit">Send Message</button>
                                 </div>

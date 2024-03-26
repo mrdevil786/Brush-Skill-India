@@ -34,6 +34,6 @@ class ContactController extends Controller
 
         Mail::to('brushskillindia@gmail.com')->send(new ContactFormMail($emailData));
 
-        return redirect()->back()->with('success', 'Email sent successfully!');
+        return redirect()->back()->with('success', 'Message sent successfully!');
     }
 }
