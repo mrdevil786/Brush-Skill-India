@@ -63,22 +63,26 @@
                     <h1 class="display-5 mb-4">Testimonials</h1>
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item">
-                            <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
+                            <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>I found Brush Skill India 
+                                really helpful, and I had a great experience with them.The outcome is excellent, and the price was 
+                                extremely fair. I would heartily urge everyone to check out Brush Skill India.</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid p-1 bg-secondary" src="{{ asset('site/img/testimonial-1.jpg')}}" alt="">
                                 <div class="ps-3">
-                                    <h3>Client Name</h3>
-                                    <span class="text-uppercase">Profession</span>
+                                    <h3>Ana S.</h3>
+                                    <span class="text-uppercase"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="testimonial-item">
-                            <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
+                            <p class="fs-4 fw-normal"><i class="fa fa-quote-left text-secondary me-3"></i>The work that Brush Skill India 
+                                completed at our home is to our satisfaction.Everyday, they arrived early and the work appears really 
+                                well. They completed the task efficiently and according to schedule.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid p-1 bg-secondary" src="img/testimonial-2.jpg" alt="">
+                                <img class="img-fluid p-1 bg-secondary" src="{{ asset('site/img/testimonial-2.jpg')}}" alt="">
                                 <div class="ps-3">
-                                    <h3>Client Name</h3>
-                                    <span class="text-uppercase">Profession</span>
+                                    <h3>Steve</h3>
+                                    <span class="text-uppercase"></span>
                                 </div>
                             </div>
                         </div>
