@@ -37,8 +37,9 @@
                         <div class="contact-icon p-3">
                             <div><i class="fa fa-2x fa-map-marker-alt"></i></div>
                         </div>
-                        <h4 class="mt-5"><a class="text-dark" href="https://maps.app.goo.gl/ejpYyzYPHZDwXN1j7">E-309,Crystal Plaza, <br>
-                            Opp. Infinity Mall, Link Road,<br> Andheri(W), Mumbai- 400053</a></h4>
+                        <h4 class="mt-5"><a class="text-dark"
+                                href="https://maps.app.goo.gl/ejpYyzYPHZDwXN1j7">E-309,Crystal Plaza, <br>
+                                Opp. Infinity Mall, Link Road,<br> Andheri(W), Mumbai- 400053</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
@@ -46,7 +47,8 @@
                         <div class="contact-icon p-3">
                             <div><i class="fa fa-2x fa-phone"></i></div>
                         </div>
-                        <h4 class="mt-5"><a class="text-dark" href="tel:+917900055544"">+91-7900055544</a><br><br><a class="text-dark" href="tel:+919322076046">+91-9322076046</a></h4>
+                        <h4 class="mt-5"><a class="text-dark" href="tel:+917900055544"">+91-7900055544</a><br><br><a
+                                class="text-dark" href="tel:+919322076046">+91-9322076046</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
@@ -74,22 +76,42 @@
                 id="contact_form">
                 <div class="col-lg-8">
                     <div class="bg-primary p-5 m-5 mb-0">
-                        <form>
+                        <form action="{{ route('website.sendContact') }}" method="POST">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name"
-                                        style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" name="name"
+                                        placeholder="Your Name" style="height: 55px;" value="{{ old('name') }}">
+                                    @error('name')
+                                        <info class="text-danger">{{ $message }}</info>
+                                    @enderror
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
-                                        style="height: 55px;">
+                                    <input type="email" class="form-control bg-light border-0" name="email"
+                                        placeholder="Your Email" style="height: 55px;" value="{{ old('email') }}">
+                                    @error('email')
+                                        <info class="text-danger">{{ $message }}</info>
+                                    @enderror
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="number" class="form-control bg-light border-0" name="phone"
+                                        placeholder="Phone" style="height: 55px;" value="{{ old('phone') }}">
+                                    @error('phone')
+                                        <info class="text-danger">{{ $message }}</info>
+                                    @enderror
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0" name="subject"
+                                        placeholder="Subject" style="height: 55px;" value="{{ old('subject') }}">
+                                    @error('subject')
+                                        <info class="text-danger">{{ $message }}</info>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Subject"
-                                        style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="5" placeholder="Message"></textarea>
+                                    <textarea class="form-control bg-light border-0" rows="5" name="message" placeholder="Message">{{ old('message') }}</textarea>
+                                    @error('message')
+                                        <info class="text-danger">{{ $message }}</info>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-secondary w-100 py-3" type="submit">Send Message</button>

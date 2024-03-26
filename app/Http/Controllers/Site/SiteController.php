@@ -19,10 +19,6 @@ class SiteController extends Controller
     {
         return view('site.service');
     }
-    public function contact()
-    {
-        return view('site.contact');
-    }
     public function testimonial()
     {
         return view('site.testimonial');
