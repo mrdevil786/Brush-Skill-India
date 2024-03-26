@@ -1,6 +1,6 @@
 @extends('site.layout.main')
 
-@section('website-page-title','testimonial')
+@section('website-page-title','Testimonial')
 
 @section('website-main-section')
 
@@ -37,7 +37,6 @@
 
 <body>
 
-
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 bg-hero" style="margin-bottom: 90px;">
         <div class="container py-5">
@@ -53,7 +52,6 @@
         </div>
     </div>
     <!-- Hero End -->
-
 
     <!-- Testimonial Start -->
     <div class="container-fluid bg-primary bg-testimonial py-5" style="margin: 180px 0;">
@@ -93,14 +91,8 @@
     </div>
     <!-- Testimonial End -->
 
-    
-
-
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
