@@ -146,7 +146,7 @@
                             </div>
                             <div class="mt-auto mb-3">
                                 <h4 class="mb-1">Mr. Ghayas M. Khan</h4>
-                                <span class="text-uppercase">+91-9322076046</span>
+                                <span class="text-uppercase">+91-7900055544</span>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                             </div>
                             <div class="mt-auto mb-3">
                                 <h4 class="mb-1">Mr. Ghulam M. Khan</h4>
-                                <span class="text-uppercase">+91-7900055544</span>
+                                <span class="text-uppercase">+91-9473707786</span>
                             </div>
                         </div>
                     </div>

@@ -102,21 +102,30 @@
                         {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-8 pt-5">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture3.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                        <div class="service-icon p-3">
+                            <div><i class="fa fa-2x fa-paint-roller"></i></div>
+                        </div>
+                        <h3 class="mt-5">Internal Painting</h3>
+                        {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
+                    </div>
+                </div>
+
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{ asset('site/img/picture3.png') }}" alt="">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture4.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-brush"></i></div>
                         </div>
-                        <h3 class="mt-5">Floor Coating</h3>
+                        <h3 class="mt-5">External Painting</h3>
                         {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{ asset('site/img/picture4.png') }}" alt="">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture5.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-eraser"></i></div>
                         </div>
@@ -125,9 +134,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{ asset('site/img/picture5.png') }}" alt="">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture6.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-spray-can"></i></div>
                         </div>
@@ -136,9 +144,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{ asset('site/img/picture6.png') }}" alt="">
-                    <div
-                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{asset('site/img/picture7.png')}}" alt="">
+                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-city"></i></div>
                         </div>
@@ -209,7 +216,7 @@
                             </div>
                             <div class="mt-auto mb-3">
                                 <h4 class="mb-1">Mr. Ghayas M. Khan</h4>
-                                <span class="text-uppercase">+91-</span>
+                                <span class="text-uppercase">+91-7900055544</span>
                             </div>
                         </div>
                     </div>
@@ -228,7 +235,7 @@
                             </div>
                             <div class="mt-auto mb-3">
                                 <h4 class="mb-1">Mr. Ghulam M. Khan</h4>
-                                <span class="text-uppercase">+91-7900055544</span>
+                                <span class="text-uppercase">+91-9473707786</span>
                             </div>
                         </div>
                     </div>

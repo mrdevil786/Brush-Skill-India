@@ -29,7 +29,7 @@
                     Opp. Infinity Mall, <br>Link Road, Andheri(W), Mumbai- 400053</p>
                 <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>brushskillindia@gmail.com</p>
                 <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91-7900055544</p>
-                <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91-9322076046</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91-9473707786</p>
             </div>
             
             <div class="col-lg-4 col-md-6">
