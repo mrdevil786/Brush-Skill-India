@@ -1,9 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Web\AuthController;
 use App\Http\Controllers\Web\BasicController;
+
+Route::get('admin/clear-cache', function() {
+    Artisan::call('cache:clear');
+    return redirect('admin/')->with('success', 'Cache Cleared Successfully');
+})->middleware('auth:sanctum', 'admin');
 
 Route::prefix('admin')->middleware('guest')->group(function () {
     Route::get('/login', [AuthController::class, 'loginView'])->name('view.login');
