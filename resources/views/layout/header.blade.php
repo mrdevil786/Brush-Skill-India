@@ -56,9 +56,9 @@
                             href="javascript:void(0)"></a>
                         <!-- sidebar-toggle-->
                         <a class="logo-horizontal " href="{{ url('admin/') }}">
-                            <img src="{{ asset('../assets/images/brand/logo.png') }}"
+                            <img src="{{ asset('../assets/images/brand/cover-2.png') }}"
                                 class="header-brand-img desktop-logo" alt="logo">
-                            <img src="{{ asset('../assets/images/brand/logo-3.png') }}"
+                            <img src="{{ asset('../assets/images/brand/cover.png') }}"
                                 class="header-brand-img light-logo1" alt="logo">
                         </a>
                         <!-- LOGO -->
@@ -92,13 +92,13 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex country">
+                                        {{-- <div class="d-flex country">
                                             <a class="nav-link icon text-center" data-bs-target="#country-selector"
                                                 data-bs-toggle="modal">
                                                 <i class="fe fe-globe"></i><span
                                                     class="fs-16 ms-2 d-none d-xl-block">English</span>
                                             </a>
-                                        </div>
+                                        </div> --}}
                                         <!-- COUNTRY -->
                                         <div class="d-flex country">
                                             <a class="nav-link icon theme-layout layout-setting">
@@ -131,7 +131,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="dropdown-divider m-0"></div>
-                                                <a class="dropdown-item" href="profile.html">
+                                                {{-- <a class="dropdown-item" href="profile.html">
                                                     <i class="dropdown-icon fe fe-user"></i> Profile
                                                 </a>
                                                 <a class="dropdown-item" href="email-inbox.html">
@@ -140,7 +140,7 @@
                                                 </a>
                                                 <a class="dropdown-item" href="lockscreen.html">
                                                     <i class="dropdown-icon fe fe-lock"></i> Lockscreen
-                                                </a>
+                                                </a> --}}
                                                 <a class="dropdown-item" href="{{ route('admin.user.logout') }}">
                                                     <i class="dropdown-icon fe fe-alert-circle"></i> Sign out
                                                 </a>
@@ -161,13 +161,13 @@
                 <div class="app-sidebar">
                     <div class="side-header">
                         <a class="header-brand1" href="{{ url('admin/') }}">
-                            <img src="{{ asset('../assets/images/brand/logo.png') }}"
+                            <img src="{{ asset('../assets/images/brand/cover-2.png') }}"
                                 class="header-brand-img desktop-logo" alt="logo">
                             <img src="{{ asset('../assets/images/brand/logo-1.png') }}"
                                 class="header-brand-img toggle-logo" alt="logo">
                             <img src="{{ asset('../assets/images/brand/logo-2.png') }}"
                                 class="header-brand-img light-logo" alt="logo">
-                            <img src="{{ asset('../assets/images/brand/logo-3.png') }}"
+                            <img src="{{ asset('../assets/images/brand/cover.png') }}"
                                 class="header-brand-img light-logo1" alt="logo">
                         </a>
                         <!-- LOGO -->
@@ -185,7 +185,7 @@
                             </li>
                             <li class="slide">
                                 <a class="side-menu__item has-link" data-bs-toggle="slide"
-                                    href="{{ url('admin/') }}"><i class="side-menu__icon fe fe-phone-call"></i><span
+                                    href="{{ route('admin.contacts.index') }}"><i class="side-menu__icon fe fe-phone-call"></i><span
                                         class="side-menu__label">Contact Forms</span></a>
                             </li>
                             <li class="sub-category">

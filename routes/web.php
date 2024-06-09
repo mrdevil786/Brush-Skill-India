@@ -5,8 +5,9 @@ use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Web\AuthController;
 use App\Http\Controllers\Web\BasicController;
+use App\Http\Controllers\Web\ContactsController;
 
-Route::get('admin/clear-cache', function() {
+Route::get('admin/clear-cache', function () {
     Artisan::call('cache:clear');
     return redirect('admin/')->with('success', 'Cache Cleared Successfully');
 })->middleware('auth:sanctum', 'admin');
@@ -42,6 +43,22 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web'])->gro
         ->prefix('users')
         ->middleware('member')
         ->controller(UsersController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+            Route::get('view/{id}', 'showUser')->name('show');
+        });
+
+    // CONTACT FORM
+    Route::name('contacts.')
+        ->prefix('contacts')
+        ->middleware('admin')
+        ->controller(ContactsController::class)->group(function () {
+            Route::get('/{id}', 'destroy')->name('destroy');
+        });
+
+    Route::name('contacts.')
+        ->prefix('contacts')
+        ->middleware('member')
+        ->controller(ContactsController::class)->group(function () {
             Route::get('/', 'index')->name('index');
             Route::get('view/{id}', 'showUser')->name('show');
         });
