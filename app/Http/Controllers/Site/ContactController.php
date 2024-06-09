@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Site;
 use Illuminate\Http\Request;
 use App\Mail\ContactFormMail;
 use App\Http\Controllers\Controller;
+use App\Models\Contact;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -22,18 +23,20 @@ class ContactController extends Controller
             'phone' => 'required|digits:10',
             'subject' => 'required',
             'message' => 'required',
-        ]);        
+        ]);
 
-        $emailData = [
+        $contact = Contact::create([
             'name' => $request->input('name'),
             'email' => $request->input('email'),
             'phone' => $request->input('phone'),
             'subject' => $request->input('subject'),
             'message' => $request->input('message'),
-        ];
+        ]);
 
-        Mail::to('brushskillindia@gmail.com')->send(new ContactFormMail($emailData));
+        $emailData = $contact->toArray();
 
-        return redirect()->back()->with('success', 'Message sent successfully!');
+        Mail::to('suhailsaeedme@gmail.com')->send(new ContactFormMail($emailData));
+
+        return redirect()->back()->with('success', 'Contact form submitted successfully.');
     }
 }
