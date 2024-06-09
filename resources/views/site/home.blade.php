@@ -77,7 +77,7 @@
                 <h1 class="display-5">Professional Painting Services</h1>
                 <hr class="w-25 mx-auto text-primary" style="opacity: 1;">
             </div>
-            <div class="row gy-4 gx-3">
+            <div class="row gy-4 gx-3 justify-content-center">
                 <div class="col-lg-4 col-md-6 pt-5">
                     <img class="img-fluid w-100" src="{{ asset('site/img/picture1.png') }}" alt="">
                     <div
