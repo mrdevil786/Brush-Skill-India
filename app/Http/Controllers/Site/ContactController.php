@@ -13,7 +13,7 @@ class ContactController extends Controller
         return view('site.contact');
     }
 
-    public function store(Request $request)
+    public function sendContact(Request $request)
     {
         $request->validate([
             'name' => 'required',
@@ -23,7 +23,13 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        Contact::create($request->all());
+        Contact::create([
+            'name' => $request->input('name'),
+            'email' => $request->input('email'),
+            'phone' => $request->input('phone'),
+            'subject' => $request->input('subject'),
+            'message' => $request->input('message'),
+        ]);
 
         return redirect()->back()->with('success', 'Contact form submitted successfully.');
     }
