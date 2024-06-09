@@ -45,6 +45,7 @@
                     <a class="text-light mb-2" href="{{ url('/') }}"><i class="fa fa-angle-right me-2"></i>Home</a>
                     <a class="text-light mb-2" href="{{ url('/about') }}"><i class="fa fa-angle-right me-2"></i>About Us</a>
                     <a class="text-light mb-2" href="{{ url('/service') }}"><i class="fa fa-angle-right me-2"></i>Our Services</a>
+                    <a class="text-light mb-2" href="{{ url('/testimonial') }}"><i class="fa fa-angle-right me-2"></i>Testimonial</a>
                     <a class="text-light" href="{{ url('/contact') }}"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                 </div>
             </div>
