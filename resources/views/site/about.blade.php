@@ -35,22 +35,6 @@
     </div>
     <!-- Hero End -->
 
-    <!-- Profile Start -->
-    <div class="container-fluid bg-primary bg-quote py-5" style="margin-bottom: 90px 0;">
-        <div class="container py-5">
-            <div class="row justify-content-start">
-                <div class="col-lg-8 text-center text-lg-start">
-                    <h1 class="display-1 text-dark">Mission</h1>
-                    <p>We strive to foster a culture of professionalism and teamwork, aiming for service 
-                        excellence in all our endeavours. Through the cultivation of a collaborative and 
-                        dynamic work environment, we are dedicated to delivering unparalleled services that 
-                        embody the principles of excellence.
-                    </p>  
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Profile End -->
 
     <!-- About Start -->
     <div class="container-fluid py-5">
@@ -97,7 +81,7 @@
 
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0;">
+    {{-- <div class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0;">
         <div class="container py-5">
             <div class="row g-0 justify-content-start">
                 <div class="col-lg-6">
@@ -123,7 +107,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Quote End -->
 
 
@@ -173,5 +157,22 @@
     </div>
     <!-- Team End -->
 
+
+    <!-- Profile Start -->
+    <div class="container-fluid bg-primary bg-quote py-5" style="margin-bottom: 90px 0;">
+        <div class="container py-5">
+            <div class="row justify-content-start">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h1 class="display-1 text-dark">Mission</h1>
+                    <p>We strive to foster a culture of professionalism and teamwork, aiming for service 
+                        excellence in all our endeavours. Through the cultivation of a collaborative and 
+                        dynamic work environment, we are dedicated to delivering unparalleled services that 
+                        embody the principles of excellence.
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Profile End -->
 
 @endsection

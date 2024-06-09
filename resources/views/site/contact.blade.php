@@ -46,8 +46,9 @@
                         <div class="contact-icon p-3">
                             <div><i class="fa fa-2x fa-phone"></i></div>
                         </div>
-                        <h4 class="mt-5"><a class="text-dark" href="tel:+917900055544"">+91-7900055544</a><br><br><a
-                                class="text-dark" href="tel:+919322076046">+91-9322076046</a></h4>
+                        <h4 class="mt-5"><a class="text-dark" href="tel:+917900055544"">+91-7900055544</a><br><a
+                                class=" text-dark" href="tel:+919322076046">+91-9322076046</a><br><a class=" text-dark"
+                                href="tel:+919473707786">+91-9473707786</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">

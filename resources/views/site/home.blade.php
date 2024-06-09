@@ -103,8 +103,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-8 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture3.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture3.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-roller"></i></div>
                         </div>
@@ -114,8 +115,9 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture4.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture4.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-brush"></i></div>
                         </div>
@@ -124,8 +126,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture5.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture5.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-eraser"></i></div>
                         </div>
@@ -134,8 +137,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture6.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture6.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-spray-can"></i></div>
                         </div>
@@ -144,8 +148,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-5">
-                    <img class="img-fluid w-100" src="{{asset('site/img/picture7.png')}}" alt="">
-                    <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
+                    <img class="img-fluid w-100" src="{{ asset('site/img/picture7.png') }}" alt="">
+                    <div
+                        class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-city"></i></div>
                         </div>
@@ -160,7 +165,7 @@
 
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0"; id="quote_form">
+    {{-- <div class="container-fluid bg-primary bg-quote py-5" style="margin: 90px 0"; id="quote_form">
         <div class="container py-5">
             <div class="row g-0 justify-content-start">
                 <div class="col-lg-6">
@@ -188,7 +193,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Quote End -->
 
 

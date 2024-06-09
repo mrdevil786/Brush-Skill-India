@@ -1,5 +1,5 @@
 <!-- Call To Action Start -->
-<div class="container-fluid bg-primary bg-call-to-action py-5" style="margin-top: 90px;">
+<div class="container-fluid bg-call-to-action py-5" style="margin-top: 90px;">
     <div class="container py-5">
         <div class="row g-0 justify-content-start">
             <div class="col-lg-6">

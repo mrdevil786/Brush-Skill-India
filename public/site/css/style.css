@@ -285,6 +285,7 @@
 .bg-call-to-action {
     background: url(../img/call-to-action.jpg) top right no-repeat;
     background-size: contain;
+    background-color: #F3F3F2;
 }
 
 .bg-footer {

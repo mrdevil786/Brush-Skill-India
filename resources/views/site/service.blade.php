@@ -130,11 +130,10 @@
                 <h1 class="display-5">Professional Painting Services</h1>
                 <hr class="w-25 mx-auto text-primary" style="opacity: 1;">
             </div>
-            <div class="row gy-4 gx-3">
+            <div class="row gy-4 gx-3 justify-content-center">
                 <div class="col-lg-4 col-md-6 pt-5">
                     <img class="img-fluid w-100" src="{{asset('site/img/picture1.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
-                        
                         <div class="service-icon p-3">
                             <div><i class="fa fa-2x fa-paint-brush"></i></div>
                         </div>
@@ -162,7 +161,6 @@
                         {{-- <a class="btn shadow-none text-secondary" href="">View Detail<i class="bi bi-arrow-right ms-1"></i></a> --}}
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6 pt-5">
                     <img class="img-fluid w-100" src="{{asset('site/img/picture4.png')}}" alt="">
                     <div class="service-item d-flex flex-column align-items-center justify-content-center text-center p-5 pt-0">
