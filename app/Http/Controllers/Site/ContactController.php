@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers\Site;
 
-use Illuminate\Http\Request;
-use App\Mail\ContactFormMail;
-use App\Http\Controllers\Controller;
 use App\Models\Contact;
-use Illuminate\Support\Facades\Mail;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class ContactController extends Controller
 {
@@ -15,7 +13,7 @@ class ContactController extends Controller
         return view('site.contact');
     }
 
-    public function sendContact(Request $request)
+    public function store(Request $request)
     {
         $request->validate([
             'name' => 'required',
@@ -25,17 +23,7 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        $contact = Contact::create([
-            'name' => $request->input('name'),
-            'email' => $request->input('email'),
-            'phone' => $request->input('phone'),
-            'subject' => $request->input('subject'),
-            'message' => $request->input('message'),
-        ]);
-
-        $emailData = $contact->toArray();
-
-        Mail::to('suhailsaeedme@gmail.com')->send(new ContactFormMail($emailData));
+        Contact::create($request->all());
 
         return redirect()->back()->with('success', 'Contact form submitted successfully.');
     }
