@@ -1,6 +1,6 @@
 @extends('site.layout.main')
 
-@section('website-page-title','team')
+@section('website-page-title','Team')
 
 @section('website-main-section')
 <!DOCTYPE html>

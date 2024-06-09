@@ -14,8 +14,7 @@
                     <h1 class="display-1 text-dark">We Bring Your Home To Lively Colors</h1>
                     <p class="fs-4 text-dark mb-4"></p>
                     <div class="pt-2">
-                        <a href="#quote_form" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2">Get A Quote</a>
-                        <a href="/contact" class="btn btn-outline-secondary rounded-pill py-md-3 px-md-5 mx-2">Contact
+                        <a href="/contact" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mx-2">Contact
                             Us</a>
                     </div>
                 </div>

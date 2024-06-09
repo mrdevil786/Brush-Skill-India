@@ -63,8 +63,8 @@
 
             <div class="row">
                 <div class="col-12" style="height: 500px;">
-                    <div class="position-relative h-100">
-                        <iframe class="position-relative w-100 h-100"
+                    <div class="h-100">
+                        <iframe class="w-100 h-100"
                             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=E-309,Crystal%20Plaza,%20Opp.%20Infinity%20Mall,%20Link%20Road,%20Andheri(W),%20Mumbai-%20400053+(Brush%20Skill%20India)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                             tabindex="0"></iframe>
@@ -72,10 +72,9 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center position-relative" style="margin-top: -200px; z-index: 1;"
-                id="contact_form">
-                <div class="col-lg-8">
-                    <div class="bg-primary p-5 m-5 mb-0">
+            <div class="row justify-content-center" id="contact_form">
+                <div class="col-12">
+                    <div class="bg-primary p-5 mt-5 mb-0">
                         <form action="{{ route('website.sendContact') }}" method="POST">
                             @csrf
                             <div class="row g-3">
@@ -122,8 +121,8 @@
                                     </div>
                                 @endif
 
-                                <div class="col-12">
-                                    <button class="btn btn-secondary w-100 py-3" type="submit">Send Message</button>
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-secondary py-3" type="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>
