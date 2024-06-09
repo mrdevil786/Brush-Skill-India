@@ -178,13 +178,15 @@
                                 <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
                             </svg></div>
                         <ul class="side-menu">
-                            <li class="sub-category">
-                                <h3>Main</h3>
-                            </li>
                             <li class="slide">
                                 <a class="side-menu__item has-link" data-bs-toggle="slide"
                                     href="{{ url('admin/') }}"><i class="side-menu__icon fe fe-home"></i><span
                                         class="side-menu__label">Dashboard</span></a>
+                            </li>
+                            <li class="slide">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide"
+                                    href="{{ url('admin/') }}"><i class="side-menu__icon fe fe-phone-call"></i><span
+                                        class="side-menu__label">Contact Forms</span></a>
                             </li>
                             <li class="sub-category">
                                 <h3>UI Kit</h3>
