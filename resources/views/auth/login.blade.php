@@ -103,7 +103,7 @@
                                                 <p class="text-dark mb-0">Not a member?<a href="register.html"
                                                         class="text-primary ms-1">Sign UP</a></p>
                                             </div> --}}
-                                            <label class="login-social-icon"><span>Our Social Network</span></label>
+                                            {{-- <label class="login-social-icon"><span>Our Social Network</span></label>
                                             <div class="d-flex justify-content-center">
                                                 <a href="javascript:void(0)">
                                                     <div class="social-login me-4 text-center">
@@ -120,7 +120,7 @@
                                                         <i class="fa fa-twitter"></i>
                                                     </div>
                                                 </a>
-                                            </div>
+                                            </div> --}}
                                         </div>
 
                                     </div>
