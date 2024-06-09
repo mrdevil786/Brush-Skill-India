@@ -4,9 +4,9 @@
         <div class="row g-0 justify-content-start">
             <div class="col-lg-6">
                 <h1 class="display-5 mb-4">Do You Have Any Project?</h1>
-                <p class="fs-4 fw-normal">We are committed to upholding the highest standards of quality, 
-                    integrity, and value creation. Our vision encompasses the diligent implementation of 
-                    best business practices, ensuring that our every commitment reflects excellence and 
+                <p class="fs-4 fw-normal">We are committed to upholding the highest standards of quality,
+                    integrity, and value creation. Our vision encompasses the diligent implementation of
+                    best business practices, ensuring that our every commitment reflects excellence and
                     contributes positively to the value we bring to our stakeholders.</p>
                 <a href="/contact" class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4">Contact Us</a>
             </div>
@@ -25,34 +25,38 @@
                 <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
                 <p class="mb-4">
                 </p>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>E-309,Crystal Plaza, 
-                    Opp. Infinity Mall, <br>Link Road, Andheri(W), Mumbai- 400053</p>
-                <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>brushskillindia@gmail.com</p>
-                <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91-7900055544</p>
-                <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91-9473707786</p>
+                <p class="mb-4">
+                    <a href="https://maps.app.goo.gl/JVuW2JTUvhgEc7WV7" class="text-light"><i
+                            class="fa fa-map-marker-alt text-primary me-3"></i>E-309,Crystal Plaza,
+                        Opp. Infinity Mall, <br>Link Road, Andheri(W), Mumbai- 400053</a>
+                </p>
+                <p class="mb-2">
+                    <a href="mailto:brushskillindia@gmail.com" class="text-light"><i
+                            class="fa fa-envelope text-primary me-3"></i>brushskillindia@gmail.com</a>
+                </p>
+                <!-- <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91-7900055544</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+91-9322076046</p> -->
             </div>
-            
+
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-primary">Quick Links</h4>
                 <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
-                    <a class="text-light mb-2" href="/about"><i class="fa fa-angle-right me-2"></i>About Us</a>
-                    <a class="text-light mb-2" href="/service"><i class="fa fa-angle-right me-2"></i>Our Services</a>
-                    <a class="text-light mb-2" href="#team_members"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
-                    {{-- <a class="text-light mb-2" href="blog"><i class="fa fa-angle-right me-2"></i>Latest Blog</a> --}}
-                    <a class="text-light" href="/contact"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                    <a class="text-light mb-2" href="{{ url('/') }}"><i class="fa fa-angle-right me-2"></i>Home</a>
+                    <a class="text-light mb-2" href="{{ url('/about') }}"><i class="fa fa-angle-right me-2"></i>About Us</a>
+                    <a class="text-light mb-2" href="{{ url('/service') }}"><i class="fa fa-angle-right me-2"></i>Our Services</a>
+                    <a class="text-light" href="{{ url('/contact') }}"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-primary">Newsletter</h4>
+                <h4 class="text-primary">Call Us</h4>
                 <hr class="w-25 text-secondary mb-4" style="opacity: 1;">
-                <form action="">
-                    <div class="input-group">
-                        <input type="text" class="form-control p-3 border-0" placeholder="Your Email">
-                        <button class="btn btn-primary">Sign Up</button>
-                    </div>
-                </form>
+                <p class="mb-2"><a href="tel:+917900055544" class="text-light"><i
+                            class="fa fa-phone-alt text-primary me-3"></i>+91-7900055544</a></p>
+                <p class="mb-2"><a href="tel:+919322076046" class="text-light"><i
+                            class="fa fa-phone-alt text-primary me-3"></i>+91-9322076046</a></p>
+                <p class="mb-0"><a href="tel:+919473707786" class="text-light"><i
+                            class="fa fa-phone-alt text-primary me-3"></i>+91-9473707786</a></p>
                 <h6 class="text-primary mt-4 mb-3">Follow Us</h6>
                 <div class="d-flex">
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
@@ -72,11 +76,12 @@
     <div class="container">
         <div class="row g-0">
             <div class="col-md-6 text-center text-md-start">
-                <p class="mb-md-0">Copyright &copy; <a class="text-dark fw-bold" href="#">Brush Skill India</a>. All
+                <p class="mb-md-0">Copyright &copy; <a class="text-dark fw-bold" href="#">Brush Skill India</a>.
+                    All
                     Rights Reserved.</p>
             </div>
             <div class="col-md-6 text-center text-md-end">
-                <p class="mb-0">Designed by <a class="text-dark fw-bold" href="https://nrsinfotech.in">N.R.S
+                <p class="mb-0">Designed by <a class="text-dark fw-bold" href="#">N.R.S
                         Infotech</a></p>
             </div>
         </div>
